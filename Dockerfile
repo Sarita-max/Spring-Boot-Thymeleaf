@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-alpine
 
 # Set the working directory in the container
-WORKDIR /springboot-thymeleaf
+WORKDIR /
 
 # Copy the executable JAR file from the host to the container
 COPY target/springboot-thymeleaf/springboot-thymeleaf-0.0.1-SNAPSHOT.jar /springboot-thymeleaf/springboot-thymeleaf-0.0.1-SNAPSHOT.jar
